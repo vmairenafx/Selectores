@@ -22,3 +22,34 @@ background: #000000;
 Todos los elementos <span> contenidos en la clase "normal" 
 font-weight: bold;
 */ 
+
+*{
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+
+Body p{
+    color: #555;
+}
+
+#primero p{
+    color: #369;
+}
+
+body a{
+    color:#C30;
+}
+
+#primero em{
+    color: #0000BB;
+    background-color: #FFFFCC;
+}
+
+body .normal .especial{
+    color: #FFFFBB;
+    background-color: #000;
+}
+
+body .normal span{
+    font-weight: bold;
+}
